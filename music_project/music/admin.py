@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Track, ListeningHistory, Recommendation, Session
 
-# Register your models here.
+admin.site.register(Track)
+admin.site.register(ListeningHistory)
+admin.site.register(Recommendation)
+admin.site.register(Session)
